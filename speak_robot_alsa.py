@@ -68,10 +68,15 @@ def robot_online():
 		f = open("iat_result.txt", "rb")
 		words = f.read().decode("utf-8")
 		f.close()
-		print(words[0:15])
+		i = 0;
+		real_words = []
+		while words[i] != '\x00':
+			real_words.append(words[i])
+			i += 1
+		print(real_words)
 		
-		if words != '\x00':
-			new_words = ruting_robot.robot_main(words[0:15])		
+		if words[0] != '\x00':
+			new_words = ruting_robot.robot_main(real_words)		
 			print(new_words)
 			while GPIO.input(BUSY_KEY):
 				time.sleep(1)

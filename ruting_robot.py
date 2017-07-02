@@ -13,7 +13,9 @@ def robot_main(words):
     url = url + "key=" + key + "&info=" + words + "&userid=" + userid
 
     req = urllib.request.Request(url)
+    
     req.add_header("apikey", "g8NGc0yPGlqA6ciy6HQLpgax")
+    print(url)
     #req = url
     print("robot start request")
     resp = urllib.request.urlopen(req)

@@ -1,0 +1,124 @@
+============================================================
+Time  2017/06/26 16:06:42 037 
+============================================================
+[2017/06/26 16:06:42 038] isr        1315 isr loaded!  
+[2017/06/26 16:06:42 038] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(73f1ec68) 
+[2017/06/26 16:06:42 039] isr        1203 ASR_MSG_SSB  
+[2017/06/26 16:06:42 039] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/06/26 16:06:42 040] isr        894  use cloud_grammar in params!  nil  
+[2017/06/26 16:06:42 040] isr        716  vad_set [in]  
+[2017/06/26 16:06:42 040] isr        751  vad_enable :  true  
+[2017/06/26 16:06:42 040] isr        768  vad_timeout :  10000  
+[2017/06/26 16:06:42 041] isr        769  vad_speech_tail :  2000  
+[2017/06/26 16:06:42 041] isr        675  enable_vad [in]  
+[2017/06/26 16:06:42 042] isr        707  vad enabled!  2000  10000  
+[2017/06/26 16:06:42 043] isr        710  enable_vad [out]  
+[2017/06/26 16:06:42 043] isr        775  vad_set [out] | ret =  0  
+[2017/06/26 16:06:42 043] isr        935  cur_engine_type =   cloud  
+[2017/06/26 16:06:42 043] isr        795  cloud_session_begin  
+[2017/06/26 16:06:42 043] isr        807  standard  
+[2017/06/26 16:06:42 051] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 051] isr        1224 6400  1  
+[2017/06/26 16:06:42 051] isr        1228 once_bytes:   6400  
+[2017/06/26 16:06:42 063] isr        623  [aud] speech start  
+[2017/06/26 16:06:42 071] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 072] isr        1224 6400  2  
+[2017/06/26 16:06:42 092] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 092] isr        1224 6400  2  
+[2017/06/26 16:06:42 113] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 113] isr        1224 6400  2  
+[2017/06/26 16:06:42 133] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 133] isr        1224 6400  2  
+[2017/06/26 16:06:42 152] isr        497  cloud_err_cb errorcode =   10407  detail =   MSS:bad response:10407  
+[2017/06/26 16:06:42 152] isr        302  error occurred:   cloud  10407  
+[2017/06/26 16:06:42 153] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:06:42 154] isr        1224 6400  2  
+[2017/06/26 16:06:42 154] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/06/26 16:06:42 154] isr        1054 session_end() [in]  
+[2017/06/26 16:06:42 155] isr        1111 cloud_session_end() [in]  
+[2017/06/26 16:06:42 157] isr        1180 cloud_session_end() [out]  
+[2017/06/26 16:06:42 158] isr        1323 isr unload!  
+============================================================
+Time  2017/06/26 16:10:06 711 
+============================================================
+[2017/06/26 16:10:06 711] isr        1315 isr loaded!  
+[2017/06/26 16:10:06 711] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(73e09890) 
+[2017/06/26 16:10:06 712] isr        1203 ASR_MSG_SSB  
+[2017/06/26 16:10:06 712] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/06/26 16:10:06 713] isr        894  use cloud_grammar in params!  nil  
+[2017/06/26 16:10:06 713] isr        716  vad_set [in]  
+[2017/06/26 16:10:06 713] isr        751  vad_enable :  true  
+[2017/06/26 16:10:06 714] isr        768  vad_timeout :  10000  
+[2017/06/26 16:10:06 714] isr        769  vad_speech_tail :  2000  
+[2017/06/26 16:10:06 714] isr        675  enable_vad [in]  
+[2017/06/26 16:10:06 716] isr        707  vad enabled!  2000  10000  
+[2017/06/26 16:10:06 716] isr        710  enable_vad [out]  
+[2017/06/26 16:10:06 716] isr        775  vad_set [out] | ret =  0  
+[2017/06/26 16:10:06 716] isr        935  cur_engine_type =   cloud  
+[2017/06/26 16:10:06 716] isr        795  cloud_session_begin  
+[2017/06/26 16:10:06 716] isr        807  standard  
+[2017/06/26 16:10:06 724] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 724] isr        1224 6400  1  
+[2017/06/26 16:10:06 724] isr        1228 once_bytes:   6400  
+[2017/06/26 16:10:06 736] isr        623  [aud] speech start  
+[2017/06/26 16:10:06 745] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 745] isr        1224 6400  2  
+[2017/06/26 16:10:06 766] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 766] isr        1224 6400  2  
+[2017/06/26 16:10:06 786] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 787] isr        1224 6400  2  
+[2017/06/26 16:10:06 808] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 808] isr        1224 6400  2  
+[2017/06/26 16:10:06 824] isr        497  cloud_err_cb errorcode =   10407  detail =   MSS:bad response:10407  
+[2017/06/26 16:10:06 824] isr        302  error occurred:   cloud  10407  
+[2017/06/26 16:10:06 828] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:10:06 828] isr        1224 6400  2  
+[2017/06/26 16:10:06 830] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/06/26 16:10:06 830] isr        1054 session_end() [in]  
+[2017/06/26 16:10:06 830] isr        1111 cloud_session_end() [in]  
+[2017/06/26 16:10:06 837] isr        1180 cloud_session_end() [out]  
+[2017/06/26 16:10:06 839] isr        1323 isr unload!  
+============================================================
+Time  2017/06/26 16:17:26 730 
+============================================================
+[2017/06/26 16:17:26 730] isr        1315 isr loaded!  
+[2017/06/26 16:17:26 731] isr        1298 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7501caa0) 
+[2017/06/26 16:17:26 731] isr        1203 ASR_MSG_SSB  
+[2017/06/26 16:17:26 732] isr        853  session_begin() [in], params:   sub = iat, domain = iat, language = zh_cn, accent = mandarin, sample_rate = 16000, result_type = plain, result_encoding = utf8  nil  
+[2017/06/26 16:17:26 732] isr        894  use cloud_grammar in params!  nil  
+[2017/06/26 16:17:26 732] isr        716  vad_set [in]  
+[2017/06/26 16:17:26 733] isr        751  vad_enable :  true  
+[2017/06/26 16:17:26 733] isr        768  vad_timeout :  10000  
+[2017/06/26 16:17:26 733] isr        769  vad_speech_tail :  2000  
+[2017/06/26 16:17:26 733] isr        675  enable_vad [in]  
+[2017/06/26 16:17:26 735] isr        707  vad enabled!  2000  10000  
+[2017/06/26 16:17:26 735] isr        710  enable_vad [out]  
+[2017/06/26 16:17:26 735] isr        775  vad_set [out] | ret =  0  
+[2017/06/26 16:17:26 735] isr        935  cur_engine_type =   cloud  
+[2017/06/26 16:17:26 736] isr        795  cloud_session_begin  
+[2017/06/26 16:17:26 736] isr        807  standard  
+[2017/06/26 16:17:26 743] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 744] isr        1224 6400  1  
+[2017/06/26 16:17:26 744] isr        1228 once_bytes:   6400  
+[2017/06/26 16:17:26 764] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 765] isr        1224 6400  2  
+[2017/06/26 16:17:26 777] isr        623  [aud] speech start  
+[2017/06/26 16:17:26 785] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 786] isr        1224 6400  2  
+[2017/06/26 16:17:26 806] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 806] isr        1224 6400  2  
+[2017/06/26 16:17:26 827] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 827] isr        1224 6400  2  
+[2017/06/26 16:17:26 849] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 849] isr        1224 6400  2  
+[2017/06/26 16:17:26 870] isr        497  cloud_err_cb errorcode =   11201  detail =   MSS:bad response:11201  
+[2017/06/26 16:17:26 870] isr        302  error occurred:   cloud  11201  
+[2017/06/26 16:17:26 872] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 872] isr        1224 6400  2  
+[2017/06/26 16:17:26 891] isr        1213 ASR_MSG_AUW,   cloud  
+[2017/06/26 16:17:26 891] isr        1224 6400  2  
+[2017/06/26 16:17:26 899] isr        1295 ASR_MSG_SSE,   cloud  
+[2017/06/26 16:17:26 900] isr        1054 session_end() [in]  
+[2017/06/26 16:17:26 900] isr        1111 cloud_session_end() [in]  
+[2017/06/26 16:17:26 906] isr        1180 cloud_session_end() [out]  
+[2017/06/26 16:17:26 907] isr        1323 isr unload!  

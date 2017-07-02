@@ -1,0 +1,25 @@
+
+vol_level:1
+tts_name:[m52]
+
+KEY1:27
+busy_key:17
+
+
+#”Ô“Ù≤Œ ˝
+sample_rate:16000
+frame_type:16
+num_channels:1
+chunk_duration_ms:20
+num_window_chunks_start:12
+num_window_chunks_end:60
+start_voice_parameter:0.7
+end_voice_parameter:0.9
+mute_time:30000
+voice_time:10000
+TE_MIN:100
+TE_MAX:300
+TZ_MIN:10
+TZ_MAX:10
+TO_MAX:80
+TO_MAX:200
